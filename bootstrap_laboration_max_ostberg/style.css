@@ -1,0 +1,135 @@
+:root{
+    --primarycolor: #000;
+}
+
+*{
+    box-sizing: border-box !important;
+    padding: 0 !important;
+    margin: 0!important;
+}
+
+
+
+
+
+
+
+
+
+
+.btn-outline-primary{
+    padding: .375rem .75rem !important;
+}
+
+.m-height{
+    height: 4.0625rem !important;
+}
+
+.navigation-title{
+    font-size: 1.2rem;
+}
+
+.nav-item{
+    font-size: 1.03rem;
+}
+
+.nav-link{
+    color: var(--primarycolor);
+}
+
+.nav-link:hover{
+    color: black;
+    text-decoration: underline solid black;
+}
+
+.pricing-container{
+    max-width: 43.75rem;
+}
+
+.pricing-text{
+    font-size: 1.25rem;
+}
+
+.pricing-title{
+    font-size: 3.5rem;
+}
+
+.card-marg{
+    margin-left: 0.9375rem !important;
+    margin-right: 0.9375rem !important;
+}
+
+.card{
+    min-width: 13.75rem !important;
+    margin-right: 0.9375rem !important;
+    margin-left: 0.9375rem !important;
+}
+
+.card-span{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #6c757d !important;
+}
+
+.m-width-container{
+    max-width: 60rem !important;
+}
+
+.card-header{
+    font-size: 1.5rem;
+    height: 3rem;
+}
+
+.card-btn{
+    font-size: 1.3rem;
+    padding: 0.3125rem 4rem !important;
+}
+
+.card-btn-a{
+    padding: 0.3125rem 3rem !important;
+    font-size: 1.3rem;
+}
+
+.card-title{
+    font-size: 2.5rem;
+}
+
+.bootstraplogo{
+    width: 1.5rem;
+}
+
+.footer-link{
+    color: #6c757d;
+}
+
+.footer-link:hover{
+    color: #6c757d;
+    text-decoration: underline;
+}
+
+
+/* Mediaquery */
+@media (max-width: 768px){
+    .m-height{
+        height: 7.125rem !important;
+    }
+
+    .navigation-title{
+        font-size: 1.1rem;
+    }
+
+    .nav-item{
+        font-size: 0.88rem;
+    }
+
+    .btn-outline-primary{
+        padding: .275rem .65rem !important;
+        font-size: 0.9rem;
+    }
+
+    .card-btn-a{
+        padding: 0.3125rem 3rem !important;
+        font-size: 1.3rem;
+    }
+
+}
